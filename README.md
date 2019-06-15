@@ -4,15 +4,15 @@ Compilation of all up-to-date GL related libraries for react-native expo SDK.
 ## Usage
 
 Download the tarbar and copy the contents in your project.
-The you can import like, `import { GLImage , Surface } from gl-expo-libraries;`
+Then you can import like, `import { GLImage , Surface } from gl-expo-libraries;`
 
 -> I haven't created a package coz I thought it can make conflict with your downloaded(node_modules) libraries.
 
 ### Example Code
 
 Below is the example,
-
-`import React , { Component } from "react";
+```
+import React , { Component } from "react";
 import { Container , Text } from 'native-base';
 import { Surface , GLImage } from "./gl-expo-libraries";
 
@@ -30,7 +30,8 @@ export default class Example extends Component {
      </Container>
     );
   }
-}`
+}
+```
 
 
 ## SideNote,
